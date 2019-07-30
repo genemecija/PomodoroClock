@@ -1,2 +1,2 @@
 # PomodoroClock
-Pomodoro Clock project from the WebDev 101 course from TheOdinProject
+Pomodoro Clock project from the Web Development 101 course from TheOdinProject.

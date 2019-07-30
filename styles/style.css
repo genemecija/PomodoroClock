@@ -1,0 +1,126 @@
+html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(30deg, #000, rgb(44, 59, 73), #000);;
+}
+#mainContainer {
+    width: 475px;
+    height: 400px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+div {
+    font-family: 'Major Mono Display', monospace;
+    color: #000;
+}
+#title {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    color: #DDD;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+.clockSection {
+    width: 100%;
+    background-image: linear-gradient(30deg, rgb(80, 94, 109), #CCC);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.4);
+}
+#settings {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 85px;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+#session, #break {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    color: black;
+}
+#sessionTitle, #breakTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+    font-size: 30px;
+}
+#sessionButtons, #breakButtons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row;
+    width: 100%;
+    height: 40%;
+    font-size: 25px;
+    font-weight: bold;
+}
+#sessionButtons div, #breakButtons div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 33%;
+}
+#clockContainer {
+    height: 200px;
+    border-radius: 10px;
+}
+#topControls, #bottomControls {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+#topControls div, #bottomControls div {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+#topControls div {
+    align-items: flex-end;
+}
+#bottomControls div {
+    align-items: flex-start;
+}
+#clock {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+    height: 60%;
+}
+#timerType {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 30%;
+    font-size: 25px;
+}
+#timer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 70%;
+    font-size: 65px;
+}
+.fas {
+    font-size: 26px;
+}

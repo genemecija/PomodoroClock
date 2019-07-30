@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Authored by Gene Mecija -->
+    <!-- Pomodoro Clock project from the Web Development 101 course on TheOdinProject -->
+    <script src="https://kit.fontawesome.com/93a2f73fb3.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Pomodoro Clock</title>
+</head>
+<body>
+
+    <div id='mainContainer'>
+        <div id='title'>Pomodoro Clock</div>
+        <div id='settings' class='clockSection'>
+            <div id='session'>
+                <div id='sessionTitle'>
+                    Session
+                </div>
+                <div id='sessionButtons'>
+                    <div id='sessionTimeDown' class='button'><i class="fas fa-minus"></i></div>
+                    <div id='sessionTime'>25</div>
+                    <div id='sessionTimeUp' class='button'><i class="fas fa-plus"></i></div>
+                </div>
+            </div>
+            <div id='break'>
+                <div id='breakTitle'>
+                    Break
+                </div>
+                <div id='breakButtons'>
+                    <div id='breakTimeDown' class='button'><i class="fas fa-minus"></i></div>
+                    <div id='breakTime'>5</div>
+                    <div id='breakTimeUp' class='button'><i class="fas fa-plus"></i></div>
+                </div>
+            </div>
+        </div>
+        <div id='clockContainer' class='clockSection'>
+            <div id='topControls'>
+                <div id='play' class='button'><i class="fas fa-play"></i></div>
+                <div id='reset' class='button'><i class="fas fa-undo-alt"></i></div>
+            </div>
+            <div id='clock'>
+                <div id='timerType'>Session</div>
+                <div id='timer'>25:00</div>
+            </div>
+            <div id='bottomControls'>
+                <div id='pause' class='button'><i class="fas fa-pause"></i></div>
+                <div id='stop' class='button'><i class="fas fa-stop"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
