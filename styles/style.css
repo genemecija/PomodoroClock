@@ -12,6 +12,7 @@ html {
     flex-flow: column;
     justify-content: space-between;
 }
+
 div {
     font-family: 'Major Mono Display', monospace;
     color: #000;
@@ -123,4 +124,13 @@ div {
 }
 .fas {
     font-size: 26px;
+}
+@media (max-width: 375px) {
+    #mainContainer {
+        width: 95vmin;
+    }
+    #title {
+        align-items: flex-end;
+        font-size: 40px;
+    }
 }
